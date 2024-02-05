@@ -122,7 +122,7 @@ header {
     appearance: none;
     background: #FFFFFF;
     border: 1px solid #F2F2F2;
-    width: 200px;
+    width: 339px;
     height: 49px;
     margin-left: -20px;
     margin-top: 7px;
@@ -197,7 +197,7 @@ header {
     border-radius: 25px;
     display: flex;
     height: 50px;
-    padding: 4px 19px;
+    padding: 0px 19px;
     align-items: center;
     gap: 10px;
     color: var(--Black, #000);
@@ -213,7 +213,7 @@ header {
 }
 
 .filtres i {
-    padding-right: 16px;
+    padding-right: 8px;
     color: #0065FC;
 }
 
