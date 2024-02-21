@@ -12,6 +12,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./images/logo/Bookiicone.png" />
 </head>
 
 <body>
@@ -29,7 +30,7 @@
         <main>
             <section class="recherche_hebergement">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre-ville ou en pleine nature</p>
+                <p class="recherche_hebergementp">En plein centre-ville ou en pleine nature</p>
                 <form class="formulaire" action="recherche" method="post">
                     <div class="Brecherche">
                         <label for="recherche" class="logorecherche"><i
@@ -37,9 +38,11 @@
                         <input class="barrederecherche" type="text" name="recherche" id="recherche"
                             placeholder="    Marseille,France" size="20" maxlength="20">
                         <label>
-                            <button class="bouttonrecherche" type="submit" value="Rechercher">
+                            <button id="un" class="bouttonrecherche" type="submit" value="Rechercher">
+                                Rechercher
+                            </button>
+                            <button id="deux" class="bouttonrecherche" type="submit" value="Rechercher" >
                                 <img src="magnifying-glass-solid.svg" class="loupe" alt="Image SVG">
-                                <p> Rechercher</p>
                             </button>
 
                             <!-- <input class="bouttonrecherche" type="submit" value="Rechercher"> -->
